@@ -7,7 +7,11 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Hogan sucks!</p>
+  <p>since 2014</p>
+  <p></p>
+  <p><b><i>I Thought This Was America</i></b> is a contract fantasy football league.</p>
+  <p></p>
+  <p>Hogan sucks.</p>
 `;
 
 /*   STEP 3   */
