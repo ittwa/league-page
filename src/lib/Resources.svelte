@@ -5,6 +5,13 @@ import { dynasty } from './utils/helper';
     const today = new Date();
     const resources = [
         {
+            name: "Tableau",
+            url: "https://public.tableau.com/app/profile/ittwa/viz/IThoughtThisWasAmericaFFL/LeagueHistory",
+            icon: "assessment",
+            premium: false,
+            separator: true,
+        },
+        {
             name: "FTN Fantasy",
             url: "https://www.ftnfantasy.com/nfl",
             icon: "insights",
