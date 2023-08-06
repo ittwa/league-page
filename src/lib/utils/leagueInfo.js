@@ -28,7 +28,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "368425230471000064",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Tiger",
-      "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Boston", // (optional)
       "bio": "aka Rogah Goodell",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
@@ -51,7 +51,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "387331520551194624",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Liam",
-      "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Boston", // (optional)
       "bio": "I totally won in 2022 in a totally fair way",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
@@ -74,7 +74,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "389115841381158912",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Albarran",
-      "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Boston", // (optional)
       "bio": "my name is jeff",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
@@ -97,7 +97,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "378209004859469824",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Durkin",
-      "tookOver": 2015, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2015, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Boston", // (optional)
       "bio": "Assistant to the Commissioner",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
@@ -120,7 +120,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "472124389555433472",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Chapman",
-      "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Boston", // (optional)
       "bio": "Tight End University",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
@@ -143,7 +143,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "379184089175138304",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Katz",
-      "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "New York", // (optional)
       "bio": "What am I doing here?",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
@@ -166,7 +166,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "472504665532002304",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "HoganLamb",
-      "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Boston", // (optional)
       "bio": "A more dysfunctional partnership than Johnny Depp and Amber Heard",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
@@ -189,7 +189,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "378689693094850560",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "JWill",
-      "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Connecticut", // (optional)
       "bio": "Sam's fiance",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
@@ -212,7 +212,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "378628035454291968",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Breezy",
-      "tookOver": 2016, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2016, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Boston", // (optional)
       "bio": "Not sure if I'm good or bad at fantasy. Just happy to be here.",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
@@ -235,7 +235,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "389113194234294272",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "RyBo",
-      "tookOver": 2019, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2019, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Boston", // (optional)
       "bio": "Fire guy",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
@@ -258,7 +258,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "378216773104832512",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Peterson",
-      "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Nashville", // (optional)
       "bio": "As bad in the playoffs as I am good in the regular season",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
@@ -281,7 +281,7 @@ export const managers = [
       // "roster": 3,  // (DEPRECATED! Don't use this anymore) ID of the roster that the manager manages (look at the order of the power rankings graph)
       "managerID": "478938441770332160",  // the user's manager ID, go to https://api.sleeper.app/v1/league/<your_league_id>/users to find user IDs (you can use older leagueIDs to find user IDs for managers that are no longer in the league)
       "name": "Cummings",
-      "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
+      // "tookOver": 2014, // (DEPRECATED! You don't need to use this anymore) (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Boston", // (optional)
       "bio": "Took long enough, but I'm finally good",
       "photo": "/managers/everyone.jpg", // square ratio recommended (no larger than 500x500)
