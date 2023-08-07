@@ -7,11 +7,17 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>since 2014</p>
-  <p></p>
-  <p><b><i>I Thought This Was America</i></b> is a contract fantasy football league.</p>
-  <p></p>
-  <p>Hogan sucks.</p>
+<p><em>[Since 2014]</em></p>
+
+<p>Ah, behold the wisdom of a drunk, animated sage who once exclaimed, <em><strong>&quot;I thought this was America!&quot;</strong></em>&nbsp;What profound words to guide us through these turbulent times! Fear not, dear adventurers of the gridiron, for amidst the chaos and confusion, there exists a glimmer of hope and laughter.</p>
+
+<p>Yes, folks, in a world where uncertainty reigns and people crave the ordinary, we present to you the sanctuary of serendipity, the epitome of joy, the hallowed grounds of the informal Group of Friends&#39; underground fantasy football League &ndash; ITTWA! ITTWA has your back, granting you the title of &quot;General Manager&quot; of your football fiefdom. Don your imaginary GM hat and bask in the glory of constructing the ultimate dynasty &ndash; the one that will be whispered about for ages to come!</p>
+
+<p>But wait, that&#39;s not all! Oh no, dear friends, our league adds an extra twist to the standard fantasy football fare. With a salary cap and a years cap in hand, you&#39;ll dance the artful dance of financial maneuvering and strategic planning. The thrill of creating your dream team while staying within the bounds of reality will keep you on the edge of your seat &ndash; or couch, depending on your game-watching preference. In jest and camaraderie, we&#39;ll forge memories that will last as long as Tom Brady&#39;s illustrious career. Together, we shall conquer the unpredictable gridiron, celebrating triumphs and laughing off defeats like they were just a part of some grand cosmic dance.</p>
+
+<p>So, my friends, gather &#39;round the virtual bonfire, raise your imaginary goblets, and let the games begin! Embrace the spirit of camaraderie, revel in the absurdity, and remember &ndash; in ITTWA, we build dynasties with a dash of jest and a sprinkle of charm! Let us carry forth this tradition for years to come, united in our love for the game and a mutual desire to escape the realities of the world, even if just for a brief moment.</p>
+
+<p><i>P.S. Hogan sucks.</i></p>
 `;
 
 /*   STEP 3   */
