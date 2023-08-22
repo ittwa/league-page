@@ -11,7 +11,7 @@
     let nine, nineOne, nineTwo, nineThree, nineFour;
     let ten, tenOne, tenTwo;
     let eleven, elevenOne, elevenTwo, elevenThree;
-    let twelve, twleveOne;
+    let twelve, twelveOne;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
