@@ -510,8 +510,7 @@
     <h2 class="sectionHeading" bind:this={nine}>Article 9 - Schedule and Playoffs</h2>
     
     <h3 bind:this={nineOne}>9.1 Schedule</h3>
-    <p>    <h3 bind:this={sevenThree}>7.3 Free Agent Auction Values</h3>
-    <p>Prior to the start of the NFL season, the Owners will meet for the Free Agent Auction. Teams will only be able to bid using the amount of cash and years they have available against the Salary and Contract Cap. Unlike in the original draft, you may match someone’s bid if you add more years to the contract. All free agents who were on a roster at the end of the prior season, regardless of their contract, are considered Restricted Free Agents (RFA). The previous owner of that RFA has the ability to match another team’s contract offer during the Free Agent Auction.</p></p>
+    <p>The regular season will consist of thirteen matchups. Each Owner will play his division rivals twice and all other Owners once. </p>
     
     <h3 bind:this={nineTwo}>9.2 Playoff Seedings</h3>
     <p>The 4 Division Winners will make the playoffs. The next 2 highest ranked teams of the non-Division Winners will also make the playoffs. The top 2 teams will get byes in the first round (week 14). The remaining Division Winners will get the 3 and the 4 seeds and face the two Wild Card teams (seed 3 plays seed 6 and seed 4 plays seed 5).</p>
