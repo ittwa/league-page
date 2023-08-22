@@ -475,7 +475,7 @@
     
     <h3 bind:this={eightTwo}>8.2 Breakdown</h3>
     <ul>
-      <li>Concussion</li>
+      <li>Concussion
         <ul>
           <li>Tiger</li>
           <li>Liam</li>
@@ -489,14 +489,14 @@
           <li>Durkin</li>
         </ul>
       </li>
-      <li>Replacements</li>
+      <li>Replacements
         <ul>
           <li>Peterson</li>
           <li>Cummings</li>
           <li>RyBo</li>
         </ul>
       </li>
-      <li>Dark Knight Rises</li>
+      <li>Dark Knight Rises
         <ul>
           <li>HoganLamb</li>
           <li>Breezy</li>
