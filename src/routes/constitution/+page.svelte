@@ -122,14 +122,14 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.3 Removal Procedures</h4>
 
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Administration</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Article 4: Administration</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Commissioner Power</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Assistant to the Commissioner</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.3 Treasury</h4>
 
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Team Management</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Article 5: Team Management</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 Roster Configuration</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.2 Salary Cap</h4>
@@ -142,23 +142,38 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.9 Claim of a Cut Player</h4>
 
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Rookie Draft</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Article 6: Rookie Draft</h3>
     
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Definition</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Player Universe</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Trading</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.4 Order</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.5 Schedule</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Contracts</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.6 Contracts</h4>
 
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: Free Agent Auction</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Article 7: Free Agency</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 Free Agency Definition</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Restricted Free Agents</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Free Agent Auction</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.4 Free Agent Auction Values</h4>
+
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Article 8: Divisions</h3>
     
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>8.1 Permanence</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>8.2 Breakdown</h4>
+
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Article 9: Schedule and Playoffs</h3>
     
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 Free Agency Definition</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Restricted Free Agents</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Free Agent Auction</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.4 Free Agent Auction Values</h4>
+
+
     <hr />
     
     <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
