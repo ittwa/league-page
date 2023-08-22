@@ -7,7 +7,7 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 
 /*   STEP 2   */
 export const homepageText = `
-<p><em>Founded in 2014, ITTWA is a contract dynasty league that tries its best to ignore Hogan and tolerate Katz.</em></p>
+<p><em>Founded in 2014, ITTWA is a contract dynasty league that tries its best to ignore Hogan and tolerate Katz.<br></em></p>
 `;
 
 /*   STEP 3   */
