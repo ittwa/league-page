@@ -5,7 +5,7 @@
     let three, threeOne, threeTwo, threeThree;
     let four, fourOne, fourTwo, fourThree;
     let five, fiveOne, fiveTwo, fiveThree, fiveFour, fiveFive, fiveSix, fiveSeven, fiveEight, fiveNine;
-    let six, sixOne, sixTwo, sixThree, sixFour, sixSix;
+    let six, sixOne, sixTwo, sixThree, sixFour, sixFive, sixSix;
     let seven, sevenOne, sevenTwo, sevenThree;
     let eight, eightOne, eightTwo, eightThree;
     let nine, nineOne, nineTwo, nineThree, nineFour;
