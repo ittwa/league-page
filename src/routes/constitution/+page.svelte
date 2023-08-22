@@ -455,21 +455,117 @@
 
 
 
-    <h2 class="sectionHeading" bind:this={seven}>Article 7 - League Finances</h2>
+    <h2 class="sectionHeading" bind:this={seven}>Article 7 - Free Agency</h2>
     
-    <h3 bind:this={sevenOne}>7.1 League Dues</h3>
-    <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
+    <h3 bind:this={sevenOne}>7.1 Definition</h3>
+    <p>After the conclusion of the final season on a Player’s contract, he is considered to be a Free Agent. All Free Agents are eligible to be bid on in the Free Agent Auction.</p>
     
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
-    <p>League payout is structured as follows:</p>
-    <ul>
-        <li>1st place: {dues * 8}$</li>
-        <li>2nd place: {dues * 3}$</li>
-        <li>3rd place: {dues}$</li>
-    </ul>
-    <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
+    <p>All free agents who were on a roster at the end of the prior season, regardless of their contract, are considered Restricted Free Agents (RFAs). The previous Owner of that RFA has the ability to match another team’s contract offer on that player during the Free Agent Auction.</p>
+
+    <h3 bind:this={sevenThree}>7.3 Free Agent Auction Values</h3>
+    <p>Prior to the start of the NFL season, the Owners will meet for the Free Agent Auction. Teams will only be able to bid using the amount of cash and years they have available against the Salary and Contract Cap. Unlike in the original draft, you may match someone’s bid if you add more years to the contract. All free agents who were on a roster at the end of the prior season, regardless of their contract, are considered Restricted Free Agents (RFA). The previous owner of that RFA has the ability to match another team’s contract offer during the Free Agent Auction.</p>
+
+
+
+    <h2 class="sectionHeading" bind:this={eight}>Article 8 - Divisions</h2>
     
-    <h3 bind:this={sevenThree}>7.3 Raising Dues</h3>
-    <p>A ⅔ majority vote is required in order to raise league dues. In the event that a manager is no longer financially comfortable with the buyin, finding a co-manager to split the cost is reccomended.</p>
+    <h3 bind:this={eightOne}>8.1 Permanence</h3>
+    <p>The divisions will remain constant year-over-year to instill a sense of rivalry.</p>
+    
+    <h3 bind:this={eightTwo}>8.2 Breakdown</h3>
+    <ul>
+      <li>Concussion</li>
+        <ul>
+          <li>Tiger</li>
+          <li>Liam</li>
+          <li>Katz</li>
+        </ul>
+      </li>
+      <li>Hey Arnold
+        <ul>
+          <li>Chapman</li>
+          <li>Jorge</li>
+          <li>Durkin</li>
+        </ul>
+      </li>
+      <li>Replacements</li>
+        <ul>
+          <li>Peterson</li>
+          <li>Cummings</li>
+          <li>RyBo</li>
+        </ul>
+      </li>
+      <li>Dark Knight Rises</li>
+        <ul>
+          <li>HoganLamb</li>
+          <li>Breezy</li>
+          <li>JWill</li>
+        </ul>
+      </li>
+    </ul>
+
+
+
+    <h2 class="sectionHeading" bind:this={nine}>Article 9 - Schedule and Playoffs</h2>
+    
+    <h3 bind:this={nineOne}>9.1 Schedule</h3>
+    <p>    <h3 bind:this={sevenThree}>7.3 Free Agent Auction Values</h3>
+    <p>Prior to the start of the NFL season, the Owners will meet for the Free Agent Auction. Teams will only be able to bid using the amount of cash and years they have available against the Salary and Contract Cap. Unlike in the original draft, you may match someone’s bid if you add more years to the contract. All free agents who were on a roster at the end of the prior season, regardless of their contract, are considered Restricted Free Agents (RFA). The previous owner of that RFA has the ability to match another team’s contract offer during the Free Agent Auction.</p></p>
+    
+    <h3 bind:this={nineTwo}>9.2 Playoff Seedings</h3>
+    <p>The 4 Division Winners will make the playoffs. The next 2 highest ranked teams of the non-Division Winners will also make the playoffs. The top 2 teams will get byes in the first round (week 14). The remaining Division Winners will get the 3 and the 4 seeds and face the two Wild Card teams (seed 3 plays seed 6 and seed 4 plays seed 5).</p>
+
+    <h3 bind:this={nineThree}>9.3 Tie-Breakers</h3>
+    <p>The tie-breakers for seedings are as follows:</p>
+    <ul>
+        <li>Record</li>
+        <li>H2H Record</li>
+        <li>Divisional Record (if teams are in the same division)</li>
+        <li>Points For</li>
+    </ul>
+    <p>In case of a 3 or more team tie, the same tiebreakers will be used, but the head to head record will consist of games against all teams involved in the tie.</p>
+
+    <h3 bind:this={nineFour}>9.4 Playoff Format</h3>
+    <p>Teams will be re-seeded for the semifinals, meaning the #1 seed plays the lowest remaining seed. Each playoff matchup will be 1 week long and the home (higher ranked) team will have a 3 point home field advantage. If the matchup ends in a tie, the higher seed advances.</p>
+
+
+
+    <h2 class="sectionHeading" bind:this={ten}>Article 10 - Trades</h2>
+    
+    <h3 bind:this={tenOne}>10.1 Trade Deadline</h3>
+    <p>In-season trades will be allowed through 12PM EST on the Thursday of Week 10. Trades will be allowed again following the conclusion of the season.</p>
+    
+    <h3 bind:this={tenTwo}>10.2 Tradeable Assets</h3>
+    <p>Trades can only consist of players and picks. Any trade involving any real-life incentives will be rejected.</p>
+
+
+
+    <h2 class="sectionHeading" bind:this={eleven}>Article 11 - WaiverWire</h2>
+    
+    <h3 bind:this={elevenOne}>11.1 Waiver Type</h3>
+    <p>The League will use a Free Agent Auction Bidding waiver type. Each team will be granted $100 FAAB at the beginning of the season to use on waivers. Minimum bid is $0 FAAB.</p>
+    
+    <h3 bind:this={elevenTwo}>11.2 Waiver Schedule</h3>
+    <p>Trades can only consist of players and picks. Any trade involving any real-life incentives will be rejected.</p>
+    <ul>
+        <li>Monday - Free Agents</li>
+        <li>Tuesday - Locked</li>
+        <li>Wednesday - Locked</li>
+        <li>Thursday - Waivers (Processing Time 11 AM EST)</li>
+        <li>Friday - Waivers (Processing Time 11 AM EST)</li>
+        <li>Saturday - Waivers (Processing Time 11 AM EST)</li>
+        <li>Sunday - Free Agents</li>
+    </ul>
+
+    <h3 bind:this={elevenThree}>11.3 Waiver Time</h3>
+    <p>Players stay on the waivers for 1 day.</p>
+
+
+
+    <h2 class="sectionHeading" bind:this={twelve}>Article 12 - Scoring</h2>
+    
+    <h3 bind:this={twelveOne}>12.1 Scoring</h3>
+    <p>The scoring settings can be found on <a href="https://sleeper.com/leagues/918205115247595520/matchup">Sleeper</a>.</p>
 
 </div>
