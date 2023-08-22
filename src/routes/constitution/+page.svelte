@@ -299,19 +299,163 @@
 
 
 
-
     <h2 class="sectionHeading" bind:this={six}>Article 6 - Rookie Draft</h2>
     
-    <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
-    <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
+    <h3 bind:this={sixOne}>6.1 Definition</h3>
+    <p>Following the NFL Draft and prior to the League’s Free Agent Auction, there will be a two (2) round draft in which Owners will select Rookies to add to their teams.</p>
     
-    <h3 bind:this={sixTwo}>6.2 Replacing Managers</h3>
-    <p>When a manager needs to be replaced, the commisiooners will try to find a suitable candidate with some connection to at least a portion of the existing managers. Priority will be placed on managers who are eager to take on a dynasty commitment and will be very active within the league.</p>
+    <h3 bind:this={sixTwo}>6.2 Player Universe</h3>
+    <p>Draft picks will be in the League’s Player Universe for two (2) seasons in advance. For example, during the 2020 season each team will have been awarded two (2) rounds of picks for the 2021 and 2022 seasons. Following the 2021 Rookie Draft, each team will be awarded two (2) rounds of draft picks for the 2023 season.</p>
     
-    <h3 bind:this={sixThree}>6.3 Replacement Incentive</h3>
-    <p>In the event that a manager chooses to quit the league or is removed by a comissioner, an incoming manager is offered a 50% reductioon on their first year buy-in.</p>
+    <h3 bind:this={sixThree}>6.3 Trading</h3>
+    <p>Trading of Rookie Draft picks is allowed.</p>
 
-    <h2 class="sectionHeading" bind:this={seven}>Article 7 League Finances</h2>
+    <h3 bind:this={sixFour}>6.4 Order</h3>
+    <ol>
+    <li> The Rookie Draft is not a snake draft. The order listed below will apply to both the first and second rounds.</li>
+    <li> The first six (6) picks will be owned by the non-playoff teams of the prior season and are determined by reverse order of optimal points (fewest to most).</li>
+    <li> Picks 7 and 8 go to the reverse order of optimal points of the losers of wildcard games, for the wildcard games only (thus who would have won in the playoffs).</li>
+    <li> Pick 9 is awarded to the loser of the 3rd place consolation game.</li>
+    <li> Pick10 is awarded to the winner of the 3rd place consolation game.</li>
+    <li> Pick 11 is awarded to the prior season’s runner-up.</li>
+    <li> Pick 12 is awarded to the prior season’s champion.</li>
+    </ol>
+
+    <h3 bind:this={sixFive}>6.5 Schedule</h3>
+    <p>Each Owner has 12 hours to make his/her draft pick. Once a selection is made, the 12 hour clock resets for the next Owner to make his/her pick.</p>
+
+    <h3 bind:this={sixSix}>6.6 Contracts</h3>
+    <table>
+      <tr>
+        <th><b>Pick</b></th>
+        <th><b>Years</b></th>
+        <th><b>Salary</b></th>
+      </tr>
+      <tr>
+        <td>1.01</td>
+        <td>4</td>
+        <td>$14</td>
+      </tr>
+      <tr>
+        <td>1.02</td>
+        <td>4</td>
+        <td>$13</td>
+      </tr>
+      <tr>
+        <td>1.03</td>
+        <td>4</td>
+        <td>$12</td>
+      </tr>
+      <tr>
+        <td>1.04</td>
+        <td>4</td>
+        <td>$11</td>
+      </tr>
+      <tr>
+        <td>1.05</td>
+        <td>4</td>
+        <td>$10</td>
+      </tr>
+      <tr>
+        <td>1.06</td>
+        <td>4</td>
+        <td>$9</td>
+      </tr>
+      <tr>
+        <td>1.07</td>
+        <td>4</td>
+        <td>$8</td>
+      </tr>
+      <tr>
+        <td>1.08</td>
+        <td>4</td>
+        <td>$8</td>
+      </tr>
+      <tr>
+        <td>1.09</td>
+        <td>4</td>
+        <td>$8</td>
+      </tr>
+      <tr>
+        <td>1.10</td>
+        <td>4</td>
+        <td>$8</td>
+      </tr>
+      <tr>
+        <td>1.11</td>
+        <td>4</td>
+        <td>$8</td>
+      </tr>
+      <tr>
+        <td>1.12</td>
+        <td>4</td>
+        <td>$8</td>
+      </tr>
+      <tr>
+        <td>2.01</td>
+        <td>4</td>
+        <td>$7</td>
+      </tr>
+      <tr>
+        <td>2.02</td>
+        <td>4</td>
+        <td>$6</td>
+      </tr>
+      <tr>
+        <td>2.03</td>
+        <td>4</td>
+        <td>$5</td>
+      </tr>
+      <tr>
+        <td>2.04</td>
+        <td>4</td>
+        <td>$4</td>
+      </tr>
+      <tr>
+        <td>2.05</td>
+        <td>4</td>
+        <td>$3</td>
+      </tr>
+      <tr>
+        <td>2.06</td>
+        <td>4</td>
+        <td>$2</td>
+      </tr>
+      <tr>
+        <td>2.07</td>
+        <td>4</td>
+        <td>$2</td>
+      </tr>
+      <tr>
+        <td>2.08</td>
+        <td>4</td>
+        <td>$2</td>
+      </tr>
+      <tr>
+        <td>2.09</td>
+        <td>4</td>
+        <td>$2</td>
+      </tr>
+      <tr>
+        <td>2.10</td>
+        <td>4</td>
+        <td>$2</td>
+      </tr>
+      <tr>
+        <td>2.11</td>
+        <td>4</td>
+        <td>$2</td>
+      </tr>
+      <tr>
+        <td>2.12</td>
+        <td>4</td>
+        <td>$2</td>
+      </tr>
+    </table>
+
+
+
+    <h2 class="sectionHeading" bind:this={seven}>Article 7 - League Finances</h2>
     
     <h3 bind:this={sevenOne}>7.1 League Dues</h3>
     <p>League dues are set at {dues}$. Dues are collected through <a href="https://www.leaguesafe.com/league/3949641">LeagueSafe</a> and collection will be sent out no later than the first of August. All managers must be fully paid up before the start of regular season. In the event that a manager fails to pay before the deadline, a 10% penalty will be addd to their payment and will go towards the payouts at the end of the year.</p>
