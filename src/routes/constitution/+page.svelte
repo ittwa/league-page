@@ -325,131 +325,131 @@
     <p>Each Owner has 12 hours to make his/her draft pick. Once a selection is made, the 12 hour clock resets for the next Owner to make his/her pick.</p>
 
     <h3 bind:this={sixSix}>6.6 Contracts</h3>
-    <table>
+    <table style="border: 1px solid black;">
       <tr>
-        <th><b>Pick</b></th>
-        <th><b>Years</b></th>
-        <th><b>Salary</b></th>
+        <th style="border: 1px solid black;"><b>Pick</b></th>
+        <th style="border: 1px solid black;"><b>Years</b></th>
+        <th style="border: 1px solid black;"><b>Salary</b></th>
       </tr>
       <tr>
-        <td>1.01</td>
-        <td>4</td>
-        <td>$14</td>
+        <td style="border: 1px solid black;">1.01</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$14</td>
       </tr>
       <tr>
-        <td>1.02</td>
-        <td>4</td>
-        <td>$13</td>
+        <td style="border: 1px solid black;">1.02</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$13</td>
       </tr>
       <tr>
-        <td>1.03</td>
-        <td>4</td>
-        <td>$12</td>
+        <td style="border: 1px solid black;">1.03</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$12</td>
       </tr>
       <tr>
-        <td>1.04</td>
-        <td>4</td>
-        <td>$11</td>
+        <td style="border: 1px solid black;">1.04</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$11</td>
       </tr>
       <tr>
-        <td>1.05</td>
-        <td>4</td>
-        <td>$10</td>
+        <td style="border: 1px solid black;">1.05</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$10</td>
       </tr>
       <tr>
-        <td>1.06</td>
-        <td>4</td>
-        <td>$9</td>
+        <td style="border: 1px solid black;">1.06</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$9</td>
       </tr>
       <tr>
-        <td>1.07</td>
-        <td>4</td>
-        <td>$8</td>
+        <td style="border: 1px solid black;">1.07</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$8</td>
       </tr>
       <tr>
-        <td>1.08</td>
-        <td>4</td>
-        <td>$8</td>
+        <td style="border: 1px solid black;">1.08</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$8</td>
       </tr>
       <tr>
-        <td>1.09</td>
-        <td>4</td>
-        <td>$8</td>
+        <td style="border: 1px solid black;">1.09</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$8</td>
       </tr>
       <tr>
-        <td>1.10</td>
-        <td>4</td>
-        <td>$8</td>
+        <td style="border: 1px solid black;">1.10</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$8</td>
       </tr>
       <tr>
-        <td>1.11</td>
-        <td>4</td>
-        <td>$8</td>
+        <td style="border: 1px solid black;">1.11</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$8</td>
       </tr>
       <tr>
-        <td>1.12</td>
-        <td>4</td>
-        <td>$8</td>
+        <td style="border: 1px solid black;">1.12</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$8</td>
       </tr>
       <tr>
-        <td>2.01</td>
-        <td>4</td>
-        <td>$7</td>
+        <td style="border: 1px solid black;">2.01</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$7</td>
       </tr>
       <tr>
-        <td>2.02</td>
-        <td>4</td>
-        <td>$6</td>
+        <td style="border: 1px solid black;">2.02</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$6</td>
       </tr>
       <tr>
-        <td>2.03</td>
-        <td>4</td>
-        <td>$5</td>
+        <td style="border: 1px solid black;">2.03</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$5</td>
       </tr>
       <tr>
-        <td>2.04</td>
-        <td>4</td>
-        <td>$4</td>
+        <td style="border: 1px solid black;">2.04</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$4</td>
       </tr>
       <tr>
-        <td>2.05</td>
-        <td>4</td>
-        <td>$3</td>
+        <td style="border: 1px solid black;">2.05</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$3</td>
       </tr>
       <tr>
-        <td>2.06</td>
-        <td>4</td>
-        <td>$2</td>
+        <td style="border: 1px solid black;">2.06</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$2</td>
       </tr>
       <tr>
-        <td>2.07</td>
-        <td>4</td>
-        <td>$2</td>
+        <td style="border: 1px solid black;">2.07</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$2</td>
       </tr>
       <tr>
-        <td>2.08</td>
-        <td>4</td>
-        <td>$2</td>
+        <td style="border: 1px solid black;">2.08</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$2</td>
       </tr>
       <tr>
-        <td>2.09</td>
-        <td>4</td>
-        <td>$2</td>
+        <td style="border: 1px solid black;">2.09</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$2</td>
       </tr>
       <tr>
-        <td>2.10</td>
-        <td>4</td>
-        <td>$2</td>
+        <td style="border: 1px solid black;">2.10</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$2</td>
       </tr>
       <tr>
-        <td>2.11</td>
-        <td>4</td>
-        <td>$2</td>
+        <td style="border: 1px solid black;">2.11</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$2</td>
       </tr>
       <tr>
-        <td>2.12</td>
-        <td>4</td>
-        <td>$2</td>
+        <td style="border: 1px solid black;">2.12</td>
+        <td style="border: 1px solid black;">4</td>
+        <td style="border: 1px solid black;">$2</td>
       </tr>
     </table>
 
