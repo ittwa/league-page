@@ -1,12 +1,17 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
-    let two, twoOne, twoTwo, twoThree;
-    let three, threeOne;
-    let four, fourOne, fourTwo;
-    let five, fiveOne;
-    let six, sixOne, sixTwo, sixThree;
+    let one, oneOne, oneTwo, oneThree, oneFour;
+    let two, twoOne, twoTwo, twoThree, twoFour;
+    let three, threeOne, threeTwo, threeThree;
+    let four, fourOne, fourTwo, fourThree;
+    let five, fiveOne, fiveTwo, fiveThree, fiveFour, fiveFive, fiveSix, fiveSeven, fiveEight, fiveNine;
+    let six, sixOne, sixTwo, sixThree, sixFour, sixSix;
     let seven, sevenOne, sevenTwo, sevenThree;
+    let eight, eightOne, eightTwo, eightThree;
+    let nine, nineOne, nineTwo, nineThree, nineFour;
+    let ten, tenOne, tenTwo;
+    let eleven, elevenOne, elevenTwo, elevenThree;
+    let twelve, twleveOne;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -154,7 +159,7 @@
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Article 7: Free Agency</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 Free Agency Definition</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 Definition</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Restricted Free Agents</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Free Agent Auction</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.4 Free Agent Auction Values</h4>
@@ -168,17 +173,45 @@
 
     <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Article 9: Schedule and Playoffs</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 Free Agency Definition</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Restricted Free Agents</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Free Agent Auction</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.4 Free Agent Auction Values</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>9.1 Schedule</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>9.2 Playoff Seedings</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>9.3 Tie-Breakers</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>9.4 Playoff Format</h4>
+
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Article 10: Trades</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>10.1 Trade Deadline</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>10.2 Tradeable Assets</h4>
+
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Article 11: Waiver Wire</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>11.1 Waiver Type</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>11.2 Waiver Schedule</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>11.3 Waiver Time</h4>
+
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Article 12: Scoring</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>12.1 Scoring</h4>
+
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Article 13: Amendments</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>13.1 Rule Changes</h4>
+
+
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Article 14: Payouts</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>14.1 Payouts</h4>
 
 
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
+    <h2 class="sectionHeading" bind:this={one}>Article 1 Membership</h2>
     
-    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
+    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 League Size</h3>
     
     <p>28 Total Players</p>
     
