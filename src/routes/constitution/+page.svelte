@@ -210,31 +210,23 @@
     <hr />
 
 
-    <h2 class="sectionHeading" bind:this={one}>Article 1 Membership</h2>
-
+    <h2 class="sectionHeading" bind:this={one}>Article 1 - Membership</h2>
     
     <h3 class="subSectionHeading" bind:this={oneOne}>1.1 League Size</h3>
-    
     <p>The composition of membership for the League shall be twelve (12) Owners.</p>
 
-
     <h3 class="subSectionHeading" bind:this={oneTwo}>1.2 Annual Dues</h3>
-    
     <p>The current annual cost of ownership is $150.</p>
     
-    
     <h3 bind:this={oneThree}>1.3 Payment Schedule</h3>
-    
     <p>Payment of the membership fee must be turned in to the Commish (cash or Venmo) by the date of the Free Agent Auction.</p>
 
-
     <h3 bind:this={oneFour}>1.4 League Platform</h3>
-    
     <p>The League will use <a href="https://sleeper.com/leagues/918205115247595520/matchup">Sleeper</a> as the platform.</p>
 
 
     
-    <h2 class="sectionHeading" bind:this={two}>Article 2 Ownership</h2>
+    <h2 class="sectionHeading" bind:this={two}>Article 2 - Ownership</h2>
     
     <h3 bind:this={twoOne}>2.1 Ownership of Team</h3>
     <p>Ownership of a membership lies in the hands of the League.  A member may not sell his rights of Ownership to anyone.  If a member wishes to leave the League, he shall report his decision to the Commissioner who will in-turn alert the other members of the League and begin to contact individuals on the League’s Waiting List in search of a replacement.</p>
@@ -248,44 +240,67 @@
     <h3 bind:this={twoFour}>2.4 Co-Ownership</h3>
     <p>Teams may be co-owned.</p>
 
+
     
-    <h2 class="sectionHeading" bind:this={three}>Article 3 Governance</h2>
+    <h2 class="sectionHeading" bind:this={three}>Article 3 - Governance</h2>
 
     <h3 bind:this={threeOne}>3.1 Code of Conduct</h3>
     <p>All active members of the League are expected to conduct themselves in a manner consistent with that of a Gentleman.  This code of ethics includes, but is not limited to: only ripping fellow Owners as much as they can handle; being respectful of and sensitive to Liam’s (mental, phyiscal, and mental) disabilities; not dropping players out of anger, frustration, or resentment (or some stupid, personal NFL boycott or other such nonsense); not partaking in collusion of any sort.</p>
 
     <h3 bind:this={threeTwo}>3.2 Voting</h3>
-    <p>This League is run as a democracy. All matters of significance will be determined by a vote. If it is a vote on a proposed new rule, that rule will pass with a majority (>50%) vote. If it is a vote to overturn an existing rule then a ⅔ quorum is needed to pass the vote. Each team receives a single vote. If a team is co-owned, only one vote from that co-ownership will be counted.
-</p>
+    <p>This League is run as a democracy. All matters of significance will be determined by a vote. If it is a vote on a proposed new rule, that rule will pass with a majority (>50%) vote. If it is a vote to overturn an existing rule then a ⅔ quorum is needed to pass the vote. Each team receives a single vote. If a team is co-owned, only one vote from that co-ownership will be counted.</p>
 
     <h3 bind:this={threeThree}>3.3 Removal Procedures</h3>
     <p>If there are grounds (complaints from several Owners, inactivity, lack of communication, repeated violations to the Code of Conduct, etc.) to remove an Owner from the League the Commish will first discuss the potential removal with the Owner. If the Commish deems there is a reasonable case for removal of the Owner, the Commish and the Owner will present the case to the rest of the League. If a solution cannot be reached without a vote, a vote for removal will be had. A ⅔ quorum is needed to pass the vote to remove the Owner from the League.</p>
 
 
 
-    <h2 class="sectionHeading" bind:this={four}>Article 4 Postseason</h2>
+    <h2 class="sectionHeading" bind:this={four}>Article 4 - Administration</h2>
     
-    <h3 bind:this={fourOne}>4.1 Playoffs</h3>
-    <p>At the end of the season 6 teams will make the playoffs. The first round of playoffs will commence in week 15. Each team that wins their division and the 4 wild card teams that finish with the best records, will receive a playoff berth. The 2 teams that win their division will receive a bye week in the first round of the playoffs. Each playoff matchup will only last one week and the winner will advance. Week 18 will not be used.</p>
+    <h3 bind:this={fourOne}>4.1 Commissioner Power</h3>
+    <p>This League is a democracy. The Commish will enforce existing rules, handle the administrative activities of the League, and will facilitate day-to-day operations and decisions of the League. The Commish cannot create/amend rules or make significant decisions by himself.</p>
     
-    <h3 bind:this={fourTwo}>4.2 Seeding Tiebreakers</h3>
-    <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
+    <h3 bind:this={fourTwo}>4.2 Assistant to the Commissioner</h3>
+    <p>The ATTC will be the Commish’s bitch.</p>
 
-    <ol>
-        <li>Points For</li>
-        <li>Head 2 Head Record</li>
-        <li>Division Record</li>
-        <li>Total Points Against</li>
-        <li>Coin Flip</li>
-        <li>Duel to the death</li>
-    </ol>
+    <h3 bind:this={fourThree}>4.3 Treasury</h3>
+    <p>The Commissioner is responsible for collecting the membership dues at the beginning of the season, holding said dues throughout the season, and distributing the funds at the conclusion of the season within ten (10) days of the conclusion of the Championship game (Week 16).</p>
 
-    <h2 class="sectionHeading" bind:this={five}>Article 5 Tanking Policy</h2>
+
+
+    <h2 class="sectionHeading" bind:this={five}>Article 5 - Team Management</h2>
     
-    <h3 bind:this={fiveOne}>5.1 League Tanking Policy</h3>
-    <p>No team may intentionally leave starting roster spots empty. Any evidence of intentionally leaving roster spots empty in order to improve your draft position may be subject to punishment, including but not limited to the forfeiture of draft selections.</p>
+    <h3 bind:this={fiveOne}>5.1 Roster Configuration</h3>
+    <p>Teams will consist of 22 players. Each week, an Owner will start 1 QB, 2 RB, 3 WR, 1 TE, 1 D/ST, and 1 Flex. There will be 13 bench spots, plus 4 Injured Reserve spots. 2 Players may return from the IR throughout the season.</p>
 
-    <h2 class="sectionHeading" bind:this={six}>Article 6 Replacing Managers</h2>
+    <h3 bind:this={fiveTwo}>5.2 Salary Cap</h3>
+    <p>By the end of the Free Agent Auction, all teams will be required to have a full roster of 20 players, that is below or equal to $270. The team’s total salaries must add up to at least $220, not counting cap penalties. If a team cannot meet this requirement, the Commissioner will push back the appropriate amount of cap penalties until the next season, so that they can draft a full team that meets the cap floor. The cap penalties that are pushed back to the next season will be counted at 150% of their original value. This rule is to prevent a team from taking on a ton of cap penalties all in one year, being terrible, but then having tons of money available for next year. The Salary Cap will only apply at the draft. Teams can exceed the cap during the season, but they must be under or at it by the FA Auction</p>
+
+    <h3 bind:this={fiveThree}>5.3 Years Cap</h3>
+    <p>The total Years from all Players on a roster may not exceed 60. The Years Cap will only apply at the draft. Teams can exceed the cap during the season, but they must be under or at it by the FA Auction.</p>
+
+    <h3 bind:this={fiveFour}>5.4 Salary Payment Timing</h3>
+    <p>Salaries are considered to be paid in full for the upcoming season at the conclusion of the annual Free Agent Auction. This means that if a player is cut anytime after the Free Agent Auction, no cap hit penalty will be incurred for the current season.</p>
+
+    <h3 bind:this={fiveFive}>5.5 Franchise Tag</h3>
+    <p>At the end of the season you are allowed, but not required, to use a franchise tag on one player whose contract has just expired. In order to be eligible, the player must have been rostered and under contract at the end of the previous season. If exercised, the player will be extended a one-year contract which will be the average of the five highest salaries of the players at his position for the previous year, or 120% of the amount of his previous year’s contract (whichever is greater). Consecutive tags are allowed. The second consecutive year of franchise tagging will be for 120% of the previous season’s salary. The third consecutive year of franchise tagging will be for 144% of the previous season’s salary. The deadline to franchise a player is the third Friday in June.</p>
+
+    <h3 bind:this={fiveSix}>5.6 Retirement</h3>
+    <p>In the event of a player with remaining years on his contract, the owner will be allowed to drop the remaining contract for half of the normal penalty, which equals 1/4 the remaining contract. Once the contract is dropped, the owner will no longer be tied to that player/contract. If the player comes back into the league at any point after retirement, he will return as a free agent and will be put into the Free Agent Pool.</p>
+
+    <h3 bind:this={fiveSeven}>5.7 Cap Hit Size</h3>
+    <p>If a player is cut with years left on his contract, the Owner will be penalized 50% of the remaining contract value. All penalties are rounded to one decimal.</p>
+
+    <h3 bind:this={fiveEight}>5.8 Cap Hit Payment Schedule</h3>
+    <p>The penalty can be applied in either a lump sum at the end of that season or spread evenly through the remaining years of the contract. The Owner must choose which option they want to use before the next season’s Free Agent Auction.</p>
+
+    <h3 bind:this={fiveNine}>5.9 Claim of a Cut Player</h3>
+    <p>If a Player who is cut is immediately claimed on waivers (during the same week that the player is dropped), there will be no penalty to the Owner who cut the Player. The Owner who claimed the Player on waivers will assume the contract of the player.</p>
+
+
+
+
+    <h2 class="sectionHeading" bind:this={six}>Article 6 - Rookie Draft</h2>
     
     <h3 bind:this={sixOne}>6.1 Removing Managers</h3>
     <p>Short of continuously failing to set a valid lineup, or confirmed collusion, no manager can be removed against their will. Participation, through the league chat, trade offers, and the waiver wire, is strongly encouraged but generally grounds for removal.</p>
