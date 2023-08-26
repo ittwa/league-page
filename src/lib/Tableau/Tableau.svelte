@@ -6,7 +6,7 @@
 
 <main>
   <h1>ITTWA Tableau Dashboard</h1>
-  <iframe src="https://public.tableau.com/views/IThoughtThisWasAmericaFFL/Rosters?:language=en-US&:display_count=n&:origin=viz_share_link"></iframe>
+  <iframe src="https://public.tableau.com/views/IThoughtThisWasAmericaFFL/Rosters"></iframe>
 </main>
 
 <style>
