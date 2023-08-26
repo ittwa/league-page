@@ -1,4 +1,4 @@
-import Tableau from './Tableau.svelte';
+import Tableau from '$lib/Tableau/Tableau.svelte';
 
 export function load({ page, fetch }) {
   return {
