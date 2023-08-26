@@ -63,11 +63,12 @@
 		background-position: left; 
 	}
 
+/*
 	.banner-D-4 {
 		background-image: url("/division-4-banner.png");
-		background-position: left; 
+		background-position: right; 
 	}
-
+/*
 	h2 {
 		text-align: center;
 		font-size: 3em;
