@@ -7,6 +7,11 @@ export const tabs = [
         dest: '/',
     },
     {
+        icon: 'assessment',
+        label: 'Tableau',
+        dest: '/tableau',
+    },
+    {
         icon: 'sports',
         label: 'Matchups',
         dest: '/matchups',
